@@ -55,6 +55,10 @@ footer {
   margin: 2rem 0;
   font-style: italic;
 }
+section#photo {
+  max-width: none; /* pas de limite */
+  width: 100%;
+}
 #photo img {
   width: 100%;        /* l’image prendra 50% de la largeur de son conteneur */
   max-width: 600px;  /* largeur maximale pour grand écran */
