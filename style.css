@@ -57,7 +57,7 @@ footer {
 }
 #photo img {
   width: 100%;      /* l’image prend toute la largeur disponible */
-  max-width: 600px; /* largeur maximale */
+  max-width: 100px; /* largeur maximale */
   height: auto;     /* garde les proportions */
   border-radius: 12px; /* coins arrondis */
   box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* léger ombrage */
