@@ -56,11 +56,10 @@ footer {
   font-style: italic;
 }
 #photo img {
-  width: 100%;      /* l’image prend toute la largeur disponible */
-  max-width: 600px; /* largeur maximale */
-  height: auto;     /* garde les proportions */
-  border-radius: 12px; /* coins arrondis */
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* léger ombrage */
-  margin: 2rem auto;  /* centrée avec un peu d’espace autour */
-  display: block;
+  width: 50%;        /* l’image prendra 50% de la largeur de son conteneur */
+  max-width: 600px;  /* largeur maximale pour grand écran */
+  height: auto;      /* garde les proportions originales */
+  display: block;    /* pour pouvoir centrer avec margin */
+  margin: 2rem auto; /* centrer l’image horizontalement avec un peu d’espace autour */
+  border-radius: 12px; /* coins arrondis si tu veux */
 }
