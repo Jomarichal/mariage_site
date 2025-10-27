@@ -55,7 +55,7 @@ footer {
   margin: 2rem 0;
   font-style: italic;
 }
-photo img {
+#photo img {
   width: 100%;      /* l’image prend toute la largeur disponible */
   max-width: 600px; /* largeur maximale */
   height: auto;     /* garde les proportions */
