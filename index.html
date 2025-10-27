@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mariage de Marie & Paul</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Mariage de Marie & Paul</h1>
+    <p>Le 14 juin 2025 • Louvain-la-Neuve</p>
+  </header>
+
+  <section id="infos">
+    <h2>Informations pratiques</h2>
+    <p>📍 Cérémonie à 14h à la Ferme du Bois d’Arpes.</p>
+    <p>🍽️ Dîner et fête sur place à partir de 18h.</p>
+    <p>👗 Dress code : chic mais confortable.</p>
+  </section>
+
+  <section id="rsvp">
+    <h2>Confirmez votre présence</h2>
+    <form action="https://formspree.io/f/xyzbkgrn" method="POST">
+      <label>Nom et prénom :</label>
+      <input type="text" name="nom" required>
+
+      <label>Nombre de personnes :</label>
+      <input type="number" name="personnes" min="1" max="5" required>
+
+      <label>Souhaitez-vous participer au dîner ?</label>
+      <select name="diner">
+        <option>Oui</option>
+        <option>Non</option>
+      </select>
+
+      <label>Allergies ou remarques :</label>
+      <textarea name="remarques"></textarea>
+
+      <button type="submit">Envoyer</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>Merci 💕 Nous avons hâte de fêter ce moment avec vous !</p>
+  </footer>
+</body>
+</html>
+
