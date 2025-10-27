@@ -59,11 +59,23 @@ section#photo {
   max-width: none; /* pas de limite */
   width: 100%;
 }
+/* ======= Sections ======= */
+section {
+  margin: 2rem auto;
+  max-width: 900px; /* conteneur large pour la photo */
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+/* ======= Photo ======= */
 #photo img {
-  width: 100%;        /* l’image prendra 50% de la largeur de son conteneur */
-  max-width: 600px;  /* largeur maximale pour grand écran */
-  height: auto;      /* garde les proportions originales */
-  display: block;    /* pour pouvoir centrer avec margin */
-  margin: 2rem auto; /* centrer l’image horizontalement avec un peu d’espace autour */
-  border-radius: 12px; /* coins arrondis si tu veux */
+  width: 100%;        /* occupe toute la largeur du conteneur */
+  height: auto;       /* garde les proportions */
+  display: block;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  margin: 2rem auto;
 }
